@@ -1,0 +1,43 @@
+{
+  "name": "fcc-url-shortener",
+  "version": "1.0.0",
+  "description": "API project for FreeCodeCamp.com",
+  "main": "server.js",
+  "dependencies": {
+    "async": "^0.2.10",
+    "body-parser": "^1.14.2",
+    "dotenv": "^1.2.0",
+    "ejs": "^2.4.1",
+    "errorhandler": "^1.4.3",
+    "express": "^4.13.4",
+    "http": "0.0.0",
+    "jade": "^1.11.0",
+    "mongodb": "^2.1.4",
+    "nodemon": "^1.9.1",
+    "shortid": "^2.2.4",
+    "socket.io": "^0.9.17",
+    "valid-url": "^1.0.9",
+    "wurl": "^2.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BoDonkey/fcc-url-shortener.git"
+  },
+  "keywords": [
+    "BoDonkey",
+    "API",
+    "url-shortener",
+    "FreeCodeCamp"
+  ],
+  "author": "BoDonkey",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BoDonkey/fcc-url-shortener/issues"
+  },
+  "homepage": "https://github.com/BoDonkey/fcc-url-shortener#readme"
+}
