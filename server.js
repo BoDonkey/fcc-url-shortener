@@ -14,7 +14,7 @@ require('dotenv').config({
   silent: true
 });
 
-mongo.MongoClient.connect(process.env.MONGO_URI || 'mongodb://localhost:27017/url-shortener', function(err, db) {
+mongo.MongoClient.connect(process.env.MONGOLAB_URI || 'mongodb://heroku_jmc2hm2c:qotstsb9kkoldftctgv8mat19a@ds013918.mlab.com:13918/heroku_jmc2hm2c', function(err, db) {
 
   if (err) {
     throw new Error('Database failed to connect!');
