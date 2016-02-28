@@ -4,7 +4,6 @@
   <meta charset="UTF-8">
   <title>FCC URL shortener microservice</title>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-  <script src="https://rawgithub.com/wanasit/chrono/master/chrono.min.js"></script>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 </head>
 <body>
@@ -33,6 +32,19 @@
     <code><a href="https://intense-temple-40641.herokuapp.com/NJyiElojx">https://intense-temple-40641.herokuapp.com/NJyiElojx</a></code>
     <h3>Will redirect to:</h3>
     <code><a href="http://freecodecamp.com/news">http://freecodecamp.com/news</a></code>
+
+    <h3>Adding a site that is already in the database to the end of the App URL will give the database record.
+    <code><a href="https://intense-temple-40641.herokuapp.com/http://freecodecamp.com/news">https://intense-temple-40641.herokuapp.com/http://freecodecamp.com/news</a></code>
+    <h3>Will give back:</h3>
+    <code>
+      {
+        "fullength": "http://freecodecamp.com/news",
+        "shortened": "https://intense-temple-40641.herokuapp.com/NJyiElojx"
+      }
+    </code>
+    </br>
+    <h3>While web sites are checked for form, they are <strong>NOT</strong> checked for reachability before being added to the database. This is a feature that will be added in the future.</h3>
+
   </div>
 </body>
 </html>
